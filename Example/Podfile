@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PHCProgressBar_Example' do
+  pod 'PHCProgressBar', :path => '../'
+
+  target 'PHCProgressBar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
