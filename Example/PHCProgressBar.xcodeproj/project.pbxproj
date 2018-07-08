@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		24DF016F47B50F328C2F0C3A /* Pods_PHCProgressBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB2BC9961143E4664458DB04 /* Pods_PHCProgressBar_Tests.framework */; };
+		18BFB3C28E23BD150EC2EE39 /* Pods_PHCProgressBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 944134F1BBF35AFC0578A111 /* Pods_PHCProgressBar_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		9E3CB949F340C6C561BF84D6 /* Pods_PHCProgressBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2923C2D3820E4ABEBED675 /* Pods_PHCProgressBar_Example.framework */; };
+		D204455620F1D6360016AB14 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204455520F1D6360016AB14 /* UIColorExtension.swift */; };
+		F583200E69C3C99CFBC1E0DB /* Pods_PHCProgressBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F18FC2D626BD71F783FD2E4 /* Pods_PHCProgressBar_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F2923C2D3820E4ABEBED675 /* Pods_PHCProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHCProgressBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37343681093C3DC6FA081FAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F18FC2D626BD71F783FD2E4 /* Pods_PHCProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHCProgressBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37343681093C3DC6FA081FAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		43003B482EA90DF1A57AA4B8 /* Pods-PHCProgressBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHCProgressBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PHCProgressBar_Tests/Pods-PHCProgressBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PHCProgressBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHCProgressBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,12 +42,13 @@
 		607FACE51AFB9204008FA782 /* PHCProgressBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHCProgressBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		83002938E62000107DE97BDF /* PHCProgressBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PHCProgressBar.podspec; path = ../PHCProgressBar.podspec; sourceTree = "<group>"; };
+		83002938E62000107DE97BDF /* PHCProgressBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PHCProgressBar.podspec; path = ../PHCProgressBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8CBD695A0DCE70FE01F36E39 /* Pods-PHCProgressBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHCProgressBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PHCProgressBar_Tests/Pods-PHCProgressBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		944134F1BBF35AFC0578A111 /* Pods_PHCProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHCProgressBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C592302D4F8B41517D7F3CF9 /* Pods-PHCProgressBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHCProgressBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PHCProgressBar_Example/Pods-PHCProgressBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C725F22E44E7673399F90084 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C725F22E44E7673399F90084 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D204455520F1D6360016AB14 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		D8009D0068C5F52AB1996BF0 /* Pods-PHCProgressBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PHCProgressBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PHCProgressBar_Example/Pods-PHCProgressBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DB2BC9961143E4664458DB04 /* Pods_PHCProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PHCProgressBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E3CB949F340C6C561BF84D6 /* Pods_PHCProgressBar_Example.framework in Frameworks */,
+				18BFB3C28E23BD150EC2EE39 /* Pods_PHCProgressBar_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DF016F47B50F328C2F0C3A /* Pods_PHCProgressBar_Tests.framework in Frameworks */,
+				F583200E69C3C99CFBC1E0DB /* Pods_PHCProgressBar_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +97,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				D204455520F1D6360016AB14 /* UIColorExtension.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -153,8 +156,8 @@
 		A557269E1CA9EB326A6A6400 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F2923C2D3820E4ABEBED675 /* Pods_PHCProgressBar_Example.framework */,
-				DB2BC9961143E4664458DB04 /* Pods_PHCProgressBar_Tests.framework */,
+				944134F1BBF35AFC0578A111 /* Pods_PHCProgressBar_Example.framework */,
+				2F18FC2D626BD71F783FD2E4 /* Pods_PHCProgressBar_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +173,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				C0213D5C473AB978166C48DE /* [CP] Embed Pods Frameworks */,
+				3EF8AE7E3A9F2D5397E51012 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -189,7 +192,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				13BA4F65B0F1258C043134FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,22 +264,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		13BA4F65B0F1258C043134FE /* [CP] Embed Pods Frameworks */ = {
+		3EF8AE7E3A9F2D5397E51012 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PHCProgressBar_Tests/Pods-PHCProgressBar_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-PHCProgressBar_Example/Pods-PHCProgressBar_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PHCProgressBar/PHCProgressBar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PHCProgressBar.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PHCProgressBar_Tests/Pods-PHCProgressBar_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PHCProgressBar_Example/Pods-PHCProgressBar_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BABD642520DEDFFF8005765B /* [CP] Check Pods Manifest.lock */ = {
@@ -296,24 +298,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0213D5C473AB978166C48DE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PHCProgressBar_Example/Pods-PHCProgressBar_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PHCProgressBar/PHCProgressBar.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PHCProgressBar.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PHCProgressBar_Example/Pods-PHCProgressBar_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D20A2E0B865A286135EC52F2 /* [CP] Check Pods Manifest.lock */ = {
@@ -343,6 +327,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				D204455620F1D6360016AB14 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -475,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

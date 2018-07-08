@@ -1,0 +1,16 @@
+PODS:
+  - PHCProgressBar (0.1.0)
+
+DEPENDENCIES:
+  - PHCProgressBar (from `../`)
+
+EXTERNAL SOURCES:
+  PHCProgressBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PHCProgressBar: 2d4a24f6abfce1852c8d7828da0c5cfaf6af32ec
+
+PODFILE CHECKSUM: 5d4928f73520d4471ed0da685d5310a1546f759f
+
+COCOAPODS: 1.5.3

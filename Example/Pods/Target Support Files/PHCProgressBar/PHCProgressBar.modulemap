@@ -1,0 +1,6 @@
+framework module PHCProgressBar {
+  umbrella header "PHCProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,11 +1,19 @@
-use_frameworks!
+platform :ios, '9.0'
 
 target 'PHCProgressBar_Example' do
+  use_frameworks!
+
   pod 'PHCProgressBar', :path => '../'
 
   target 'PHCProgressBar_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
   end
+end
+
+# hotfix for cocoapod 1.5.3
+post_install do |installer|
+    installer.pods_project.build_configurations.each do |config|
+        config.build_settings.delete('CODE_SIGNING_ALLOWED')
+        config.build_settings.delete('CODE_SIGNING_REQUIRED')
+    end
 end

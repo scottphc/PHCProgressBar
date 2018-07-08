@@ -7,18 +7,77 @@
 //
 
 import UIKit
+import PHCProgressBar
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var progressBar: PHCProgressBar! {
+        didSet {
+            progressBar.addTarget(self, action: #selector(clickAction), for: .touchUpInside)
+        }
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
+    @objc
+    func clickAction() {
+        print("Clicked")
+    }
+
+    // MARK: IBOutlet Events
+
+    @IBAction func tapBackground(_ sender: Any) {
+        view.endEditing(true)
+    }
+
+    @IBAction func sliderValueChanged(_ slider: UISlider) {
+        progressBar.progress = slider.value
+    }
+
+    @IBAction func topTextChanged(_ textField: UITextField) {
+        progressBar.topText = textField.text
+    }
+
+    @IBAction func bottomTextChanged(_ textField: UITextField) {
+        progressBar.bottomText = textField.text
+    }
+
+    @IBAction func circleTextChanged(_ textField: UITextField) {
+        progressBar.circleText = textField.text
+    }
+
+    @IBAction func circleBackgroundColorChanged(_ textField: UITextField) {
+        progressBar.circleBackgroundColor = UIColor(hexString: textField.text ?? "")
+    }
+
+    @IBAction func circleBorderColorChanged(_ textField: UITextField) {
+        progressBar.circleBorderColor = UIColor(hexString: textField.text ?? "")
+    }
+
+    @IBAction func barBackgroundColorChanged(_ textField: UITextField) {
+        progressBar.barBackgroundColor = UIColor(hexString: textField.text ?? "")
+    }
+
+    @IBAction func barBorderColorChanged(_ textField: UITextField) {
+        progressBar.barBorderColor = UIColor(hexString: textField.text ?? "")
+    }
+    
+    @IBAction func topTextColorChanged(_ textField: UITextField) {
+        progressBar.topTextColor = UIColor(hexString: textField.text ?? "")
+    }
+
+    @IBAction func bottomTextColorChanged(_ textField: UITextField) {
+        progressBar.bottomTextColor = UIColor(hexString: textField.text ?? "")
+    }
+    
+    @IBAction func progressColorChanged(_ textField: UITextField) {
+        progressBar.progressTintColor = UIColor(hexString: textField.text ?? "")
+    }
 }
 
