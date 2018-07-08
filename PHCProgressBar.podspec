@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'A high customized circle + progress bar'
   s.homepage         = 'https://github.com/scottphc/PHCProgressBar'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'scottphc' => 'scott.ph.chou@gmail.com' }
+  s.author           = { 'Scott Chou' => 'scott.ph.chou@gmail.com' }
   s.source           = { :git => 'https://github.com/scottphc/PHCProgressBar.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
