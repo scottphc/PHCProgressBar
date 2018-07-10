@@ -113,7 +113,7 @@ public class PHCProgressBar: UIControl {
     public var circleFont: UIFont = UIFont.systemFont(ofSize: 15) {
         didSet {
             circleLabel.font = circleFont
-            setNeedsLayout()
+            setNeedsDisplay()
             setNeedsLayout()
         }
     }
@@ -225,7 +225,6 @@ public class PHCProgressBar: UIControl {
     }
 
     public override func draw(_ rect: CGRect) {
-        print("redraw")
         guard let context = UIGraphicsGetCurrentContext() else { return }
 
         let circleDiameter = rect.height - 2
