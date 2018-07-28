@@ -14,6 +14,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var progressBar: PHCProgressBar! {
         didSet {
             progressBar.addTarget(self, action: #selector(clickAction), for: .touchUpInside)
+
+            progressBar.layer.shadowColor = UIColor.black.cgColor
+            progressBar.layer.shadowOffset = CGSize(width: 2, height: 2)
+            progressBar.layer.shadowOpacity = 0.8
+            progressBar.layer.masksToBounds = false
         }
     }
 

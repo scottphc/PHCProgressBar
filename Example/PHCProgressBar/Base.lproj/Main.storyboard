@@ -259,7 +259,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="VLh-dr-TDS">
+                <tapGestureRecognizer cancelsTouchesInView="NO" id="VLh-dr-TDS">
                     <connections>
                         <action selector="tapBackground:" destination="vXZ-lx-hvc" id="dfb-Vy-2n4"/>
                     </connections>
